@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  grid-template-rows: 0.1fr 2fr 1fr 2fr;
+}
+.secfrag {
+  display: grid;
+  grid-template-columns: 0.3fr 2fr;
+}
+.flipCard {
+  transform: rotateY(180deg);
+  transition: 1s;
+}
